@@ -9,18 +9,21 @@ body {
 
 .flag-blue {
   background-color: rgb(0,85,164);
-  width: 33%;
+  width: 26px;
+  height: 52px;
   display: inline-block;
 }
 
 .flag-white {
   background-color: #FFFFFF;
-  width: 33%;
+  width: 26px;
+  height: 52px;
   display: inline-block;
 }
 
 .flag-red {
   background-color: rgb(239, 65, 53);
-  width: 33%;
+  width: 26px;
+  height: 52px;
   display: inline-block;
 }
