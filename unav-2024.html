@@ -4,40 +4,30 @@
     <title>2024 Unav Test</title>
   </head>
   <body>
-    <!-- UNIVERSAL NAV HEADER -->	
-<div id="nygov-universal-navigation" class="nygov-universal-container" data-iframe="true" data-updated="2024-03-29 18:26">
-	<noscript>
-		<iframe src="//webnycdn.ny.gov/unav/load/header.html" frameborder="0" style="border: none; overflow: hidden; width:100%;    height: 60px;" scrolling="no">
-			Your browser does not support iFrames
-		</iframe>
-	</noscript>
-	<script type="text/javascript">
-		var _NY = {
-			HOST: "webnycdn.ny.gov",
-			BASE_HOST: "webnycdn.ny.gov",
-			hideSettings: false,
-			hideSearch: false,
-			showLanguageHeader: false,
-			showLanguageFooter: false,
-		};
-		(function (document, bundle, head) {
-			head = document.getElementsByTagName('head')[0];
-			bundle = document.createElement('script');
-			bundle.type = 'text/javascript';
-			bundle.async = true;
-			bundle.src = "//webnycdn.ny.gov/sites/all/widgets/universal-navigation/js/dist/global-nav-bundle.js";
-			head.appendChild(bundle);
-		}(document));
-	</script>
-</div>
-    <div>Page Content</div>
+	<!-- UNIVERSAL NAV HEADER -->
+	<div id="nygov-universal-navigation" class="nygov-universal-container" data-iframe="true"
+		data-updated="2024-03-29 18:26">
+		<script type="text/javascript">
+			var _NY = {
+				HOST: "pages.webnycdn.ny.gov",
+				BASE_HOST: "pages.webnycdn.ny.gov",
+				hideSettings: false,
+				hideSearch: false,
+				showLanguageHeader: true,
+				showLanguageFooter: true,
+			};
+			(function (document, bundle, head) {
+				head = document.getElementsByTagName('head')[0];
+				bundle = document.createElement('script');
+				bundle.type = 'text/javascript';
+				bundle.async = true;
+				bundle.src = "//pages.webnycdn.ny.gov/unav/js/unav-bundle.js";
+				head.appendChild(bundle);
+			}(document));
+		</script>
+	</div>
+    <div>Page Content - last updated 9/5/2024</div>
 <!-- UNIVERSAL NAV FOOTER -->
-<div id="nygov-universal-footer" class="nygov-universal-container">
-	<noscript>
-		<iframe src="//webnycdn.ny.gov/unav/load/footer.html" frameborder="0" style="border: none; overflow: hidden; width: 100%; min-height: 120px;" scrolling="no">
-			Your browser does not support iFrames
-		</iframe>
-	</noscript>
-</div>
+	<div id="nygov-universal-footer" class="nygov-universal-container" style="color: #fff"></div>
   </body>
 </html>
